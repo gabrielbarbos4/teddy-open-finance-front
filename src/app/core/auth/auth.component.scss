@@ -1,0 +1,6 @@
+.content-container {
+  $padding-x: 16px;
+  padding-inline: $padding-x;
+
+  width: min(100% , calc(521px + calc($padding-x * 2)));
+}
